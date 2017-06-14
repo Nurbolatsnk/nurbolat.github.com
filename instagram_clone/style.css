@@ -1,0 +1,137 @@
+.bot{
+  background: #2EB3D4;
+  position: relative;
+  bottom: 55px;
+  left: 90px;
+}
+.profile-meta {
+    position: relative;
+    right: 164px;
+}
+
+.btn-default {
+    border: 1px solid grey;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    opacity: 0.8;
+    position: relative;
+    bottom: 55px;
+    left: 90px;
+    background-color: white;
+}
+.profile-img {
+    position: relative;
+    left: 70px;
+    top: 40px;
+    margin-bottom: 20px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 150px;
+}
+
+.profile-name {
+    font-size: 32px;
+    font-style: normal;
+    position: relative;
+    right: 160px;
+    top: 10px;
+}
+
+.profileInfo {
+    position: relative;
+    right: 200px;
+    bottom: 15px;
+}
+
+.profileInfo-text {
+    margin-left: 40px
+}
+.header {
+    height: 75px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-logo {
+    position: relative;
+    top: 20px;
+    width: 50px;
+    left: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.header-sign {
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+body{
+  font-family: "San Francisco";
+}
+.heart{
+position: absolute;
+top: 110px;
+left: 100px;
+  color: white;
+
+}
+
+
+.buttons {
+  text-align: right;
+}
+.btn-default{
+
+  border: 1px solid black;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+
+}
+.container{
+
+  max-width: 1000px;
+  margin:0 auto;
+}
+.row{
+  display: flex;
+}
+.col{
+  flex:1;
+  margin: 15px;
+  position: relative;
+}
+.col img{
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 600px){
+  .row{
+    display: block;
+  }
+  .col{
+    padding: 0;
+  }
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.col:hover .overlay{
+  transition: 1s;
+opacity: 1;
+}
